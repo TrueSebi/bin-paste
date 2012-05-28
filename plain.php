@@ -1,5 +1,5 @@
 <?php
-$conn = mysql_connect ("localhost", "user", "pass") or die ('echo "500 /bin/paste/ Currently unreachable."');
+$conn = mysql_connect ("localhost", "root", "password") or die ('echo "500 /bin/paste/ Currently unreachable."');
 
 mysql_select_db("db");
 $id = mysql_real_escape_string($_GET['id']);
