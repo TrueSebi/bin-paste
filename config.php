@@ -7,7 +7,5 @@ $settings = array(
 	'mysql_table_paste' => 'pastes',
 	'nobanner' => false
 );
-function getSetting($setting){
-	return $settings[$setting];
-}
+
 ?>
